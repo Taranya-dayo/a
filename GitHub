@@ -1,0 +1,5 @@
+chmod 700 .ssh
+cd.ssh
+touch authorized_keys
+vim authorized_keys PowerShell.pub
+chmod 600 authorized_keys
