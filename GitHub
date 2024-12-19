@@ -1,5 +1,5 @@
 chmod 700 .ssh
 cd.ssh
 touch authorized_keys
-vim authorized_keys PowerShell.pub
+vim authorized_keys id_ed25519.pub
 chmod 600 authorized_keys
